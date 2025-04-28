@@ -1,0 +1,210 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>26/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 28 22:57:44 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>779 seconds (779391 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.TC_003_ValidLoginTest.ValidateLogin()'><b>ValidateLogin</b><br>Test class: test.TC_003_ValidLoginTest<br>Parameters: RamAdmin1, Ram@1234</td>
+<td></td>
+<td>6</td>
+<td>test.TC_003_ValidLoginTest@2925bf5b</td></tr>
+<tr>
+<td title='test.TC_008_ChangePasswordTest.ChangePassword()'><b>ChangePassword</b><br>Test class: test.TC_008_ChangePasswordTest<br>Parameters: RamAdmin1, Ram@1234, Ram@1234, Ram@1234, Ram@1234</td>
+<td></td>
+<td>19</td>
+<td>test.TC_008_ChangePasswordTest@6ad82709</td></tr>
+<tr>
+<td title='test.TC_002_InvalidRegisterDataTest.ValidRegisterTest()'><b>ValidRegisterTest</b><br>Test class: test.TC_002_InvalidRegisterDataTest<br>Parameters: Roopa, , Roopa1011, RoopaK, Dummyuser001@gmail.com, PasswordIsEmpty, Password is Empty</td>
+<td></td>
+<td>34</td>
+<td>test.TC_002_InvalidRegisterDataTest@45c7e403</td></tr>
+<tr>
+<td title='test.TC_002_InvalidRegisterDataTest.ValidRegisterTest()'><b>ValidRegisterTest</b><br>Test class: test.TC_002_InvalidRegisterDataTest<br>Parameters: Roopa, Roopa1011, Roopa1011, , Dummyuser001@gmail.com, FullNameIsEmpty, Full Name is Empty</td>
+<td></td>
+<td>33</td>
+<td>test.TC_002_InvalidRegisterDataTest@45c7e403</td></tr>
+<tr>
+<td title='test.TC_005_SearchHotelTest.SearchHotelsTest()'><b>SearchHotelsTest</b><br>Test class: test.TC_005_SearchHotelTest<br>Parameters: RamAdmin1, Ram@1234, 18-05-2025, 19-05-2025</td>
+<td></td>
+<td>5</td>
+<td>test.TC_005_SearchHotelTest@1ff4931d</td></tr>
+<tr>
+<td title='test.TC_010_ValidateBooking.BookingHotelsTest()'><b>BookingHotelsTest</b><br>Test class: test.TC_010_ValidateBooking<br>Parameters: RamAdmin1, Ram@1234, 25-05-2025, 26-05-2025, Roopa, , Theni, 5478569852145632, 123, LastNameISEmpty, Please Enter you Last Name</td>
+<td></td>
+<td>14</td>
+<td>test.TC_010_ValidateBooking@7817fd62</td></tr>
+<tr>
+<td title='test.TC_004_InvalidLoginTest.ValidateInvalidLogin()'><b>ValidateInvalidLogin</b><br>Test class: test.TC_004_InvalidLoginTest<br>Parameters: Roopa001, Roop, ClickForgotPassword, Forgot Password Form</td>
+<td></td>
+<td>7</td>
+<td>test.TC_004_InvalidLoginTest@710f4dc7</td></tr>
+<tr>
+<td title='test.TC_007ValidateSearchHotel.SearchHotelsTest()'><b>SearchHotelsTest</b><br>Test class: test.TC_007ValidateSearchHotel<br>Parameters: RamAdmin1, Ram@1234, 21-05-2025, 22-05-2025</td>
+<td></td>
+<td>11</td>
+<td>test.TC_007ValidateSearchHotel@61322f9d</td></tr>
+<tr>
+<td title='test.TC_010_ValidateBooking.BookingHotelsTest()'><b>BookingHotelsTest</b><br>Test class: test.TC_010_ValidateBooking<br>Parameters: RamAdmin1, Ram@1234, 23-05-2025, 25-05-2025, Roopa, Arun, , 5478569852145632, 123, AddressIsEmpty, Please Enter your Address</td>
+<td></td>
+<td>14</td>
+<td>test.TC_010_ValidateBooking@7817fd62</td></tr>
+<tr>
+<td title='test.TC_004_InvalidLoginTest.ValidateInvalidLogin()'><b>ValidateInvalidLogin</b><br>Test class: test.TC_004_InvalidLoginTest<br>Parameters: , Roopa1011, UsrNameIsEmpty, Enter Username</td>
+<td></td>
+<td>0</td>
+<td>test.TC_004_InvalidLoginTest@710f4dc7</td></tr>
+<tr>
+<td title='test.TC_001_RegisterPage.ValidRegisterTest()'><b>ValidRegisterTest</b><br>Test class: test.TC_001_RegisterPage<br>Parameters: RoopaArun02, Roopa@1011, Roopa@1011, RoopaK, DummyUser02@gmail.com</td>
+<td></td>
+<td>52</td>
+<td>test.TC_001_RegisterPage@24aed80c</td></tr>
+<tr>
+<td title='test.TC_009_HomeContentDetailsTest.HomeContentTest()'><b>HomeContentTest</b><br>Test class: test.TC_009_HomeContentDetailsTest</td>
+<td></td>
+<td>0</td>
+<td>test.TC_009_HomeContentDetailsTest@510f3d34</td></tr>
+<tr>
+<td title='test.TC_010_ValidateBooking.BookingHotelsTest()'><b>BookingHotelsTest</b><br>Test class: test.TC_010_ValidateBooking<br>Parameters: RamAdmin1, Ram@1234, 07-04-2025, 08-05-2025, Roopa, Arun, Theni, 5478569852145632, , CVVNo.ISEmpty, Please Enter your Credit Card CVV Number</td>
+<td></td>
+<td>21</td>
+<td>test.TC_010_ValidateBooking@7817fd62</td></tr>
+<tr>
+<td title='test.TC_006_SelectHotelsTest.BookingHotelsTest()'><b>BookingHotelsTest</b><br>Test class: test.TC_006_SelectHotelsTest<br>Parameters: RamAdmin1, Ram@1234, 29-05-2025, 30-05-2025, Mayuri, Ravi, Erode, 5412589652365478, 789, FourthBooking</td>
+<td></td>
+<td>26</td>
+<td>test.TC_006_SelectHotelsTest@65e98b1c</td></tr>
+<tr>
+<td title='test.TC_010_ValidateBooking.BookingHotelsTest()'><b>BookingHotelsTest</b><br>Test class: test.TC_010_ValidateBooking<br>Parameters: RamAdmin1, Ram@1234, 30-05-2025, 02-06-2025, Roopa, Arun, Theni, 5478569852145632, 123, UnselectedCreditCardType, Please Select your Credit Card Type</td>
+<td></td>
+<td>14</td>
+<td>test.TC_010_ValidateBooking@7817fd62</td></tr>
+<tr>
+<td title='test.TC_010_ValidateBooking.BookingHotelsTest()'><b>BookingHotelsTest</b><br>Test class: test.TC_010_ValidateBooking<br>Parameters: RamAdmin1, Ram@1234, 04-04-2025, 05-04-2025, Roopa, Arun, Theni, 5478569852145632, 123, UnselectdExpiryMonth, Please Select your Credit Card Expiry Month</td>
+<td></td>
+<td>22</td>
+<td>test.TC_010_ValidateBooking@7817fd62</td></tr>
+<tr>
+<td title='test.TC_004_InvalidLoginTest.ValidateInvalidLogin()'><b>ValidateInvalidLogin</b><br>Test class: test.TC_004_InvalidLoginTest<br>Parameters: Roopa001, , PasswordIsEmpty, Enter Password</td>
+<td></td>
+<td>4</td>
+<td>test.TC_004_InvalidLoginTest@710f4dc7</td></tr>
+<tr>
+<td title='test.TC_006_SelectHotelsTest.BookingHotelsTest()'><b>BookingHotelsTest</b><br>Test class: test.TC_006_SelectHotelsTest<br>Parameters: RamAdmin1, Ram@1234, 21-05-2025, 22-05-2025, Meera, Joseph, Bangalore, 5236521454785698, 234, SeconBooking</td>
+<td></td>
+<td>20</td>
+<td>test.TC_006_SelectHotelsTest@65e98b1c</td></tr>
+<tr>
+<td title='test.TC_002_InvalidRegisterDataTest.ValidRegisterTest()'><b>ValidRegisterTest</b><br>Test class: test.TC_002_InvalidRegisterDataTest<br>Parameters: Roopa, Roopa1011, Roopa1011, RoopaK, Dummyuser001, InvalidEmailId, Invalid email, Please enter correct email.</td>
+<td></td>
+<td>35</td>
+<td>test.TC_002_InvalidRegisterDataTest@45c7e403</td></tr>
+<tr>
+<td title='test.TC_004_InvalidLoginTest.ValidateInvalidLogin()'><b>ValidateInvalidLogin</b><br>Test class: test.TC_004_InvalidLoginTest<br>Parameters: Roopa001, Roopa1011, enterInvalidUserdata, Forgot Password Form</td>
+<td></td>
+<td>6</td>
+<td>test.TC_004_InvalidLoginTest@710f4dc7</td></tr>
+<tr>
+<td title='test.TC_006_SelectHotelsTest.BookingHotelsTest()'><b>BookingHotelsTest</b><br>Test class: test.TC_006_SelectHotelsTest<br>Parameters: RamAdmin1, Ram@1234, 18-05-2025, 19-05-2025, kia, Dev, Theni, 5487569852145632, 123, FirstBooking</td>
+<td></td>
+<td>18</td>
+<td>test.TC_006_SelectHotelsTest@65e98b1c</td></tr>
+<tr>
+<td title='test.TC_006_SelectHotelsTest.BookingHotelsTest()'><b>BookingHotelsTest</b><br>Test class: test.TC_006_SelectHotelsTest<br>Parameters: RamAdmin1, Ram@1234, 25-05-2025, 26-06-2025, John, Peter, Madurai, 5698587454125236, 456, ThirdBooking</td>
+<td></td>
+<td>18</td>
+<td>test.TC_006_SelectHotelsTest@65e98b1c</td></tr>
+<tr>
+<td title='test.TC_002_InvalidRegisterDataTest.ValidRegisterTest()'><b>ValidRegisterTest</b><br>Test class: test.TC_002_InvalidRegisterDataTest<br>Parameters: , Roopa1011, Roopa1011, RoopaK, Dummyuser001@gmail.com, UserNameIsEmpty, Username is Empty</td>
+<td></td>
+<td>34</td>
+<td>test.TC_002_InvalidRegisterDataTest@45c7e403</td></tr>
+<tr>
+<td title='test.TC_002_InvalidRegisterDataTest.ValidRegisterTest()'><b>ValidRegisterTest</b><br>Test class: test.TC_002_InvalidRegisterDataTest<br>Parameters: Roopa, Roopa1011, Roopa, RoopaK, Dummyuser001@gmail.com, InvalidConfirmPassword, Passwords Do Not Match</td>
+<td></td>
+<td>34</td>
+<td>test.TC_002_InvalidRegisterDataTest@45c7e403</td></tr>
+<tr>
+<td title='test.TC_010_ValidateBooking.BookingHotelsTest()'><b>BookingHotelsTest</b><br>Test class: test.TC_010_ValidateBooking<br>Parameters: RamAdmin1, Ram@1234, 25-05-2025, 26-05-2025, , Arun, Theni, 5478569852145632, 123, FirstNameISEmpty, Please Enter your First Name</td>
+<td></td>
+<td>13</td>
+<td>test.TC_010_ValidateBooking@7817fd62</td></tr>
+<tr>
+<td title='test.TC_010_ValidateBooking.BookingHotelsTest()'><b>BookingHotelsTest</b><br>Test class: test.TC_010_ValidateBooking<br>Parameters: RamAdmin1, Ram@1234, 22-05-2025, 25-05-2025, Roopa, Arun, Theni, 5478, 123, CArdNo.IsEmpty, Please Enter your 16 Digit Credit Card Number</td>
+<td></td>
+<td>17</td>
+<td>test.TC_010_ValidateBooking@7817fd62</td></tr>
+</table><p>
+</body>
+</html>
