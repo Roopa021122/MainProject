@@ -13,7 +13,7 @@ public class TC_009_HomeContentDetailsTest extends ProjectSpecificationMethods {
 	public void setup() {
 		
 		testName="HomeContent test";
-		testAuthor="Sharmila";
+		testAuthor="Roopa";
 		testCategory="Smoketest";
 		testDescription="Home Content test with positive scenarios";
 		

@@ -14,7 +14,7 @@ public class TC_007ValidateSearchHotel extends ProjectSpecificationMethods{
 		
 		SheetName="InvalidSelectHotel";
 		testName="Search Hotel test with InvalidData";
-		testAuthor="Sharmila";
+		testAuthor="Roopa";
 		testCategory="Smoketest";
 		testDescription="Search Hotel test with negative scenarios";
 		

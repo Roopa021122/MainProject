@@ -14,7 +14,7 @@ public class TC_008_ChangePasswordTest extends ProjectSpecificationMethods {
 		
 		SheetName="ChangePassword";
 		testName="Change Password test";
-		testAuthor="Sharmila";
+		testAuthor="Roopa";
 		testCategory="Smoketest";
 		testDescription="Change password test with positive scenarios";
 		

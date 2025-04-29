@@ -13,7 +13,7 @@ public class TC_005_SearchHotelTest extends ProjectSpecificationMethods{
 		
 		SheetName="SelectHotelsData";
 		testName="Search Hotel test";
-		testAuthor="Sharmila";
+		testAuthor="Roopa";
 		testCategory="Smoketest";
 		testDescription="Search Hotel test with Positive scenarios";
 		

@@ -13,7 +13,7 @@ public class TC_002_InvalidRegisterDataTest extends ProjectSpecificationMethods 
 		
 		SheetName="InvalidRegisterData";
 		testName="InvalidRegister test";
-		testAuthor="Sharmila";
+		testAuthor="Roopa";
 		testCategory="Smoketest";
 		testDescription="Register test with Negative scenarios";
 		

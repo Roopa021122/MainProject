@@ -13,7 +13,7 @@ public class TC_004_InvalidLoginTest extends ProjectSpecificationMethods {
 		
 		SheetName="InvalidLoginData";
 		testName="ValidateLogin test";
-		testAuthor="Sharmila";
+		testAuthor="Roopa";
 		testCategory="Smoketest";
 		testDescription="Login test with Negative scenarios ";
 		

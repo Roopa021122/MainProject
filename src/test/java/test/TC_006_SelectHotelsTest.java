@@ -14,7 +14,7 @@ public class TC_006_SelectHotelsTest extends ProjectSpecificationMethods {
 		
 		SheetName="BookHotelData";
 		testName="Booking Hotel test";
-		testAuthor="Sharmila";
+		testAuthor="Roopa";
 		testCategory="Smoketest";
 		testDescription="Book Hotel with credentials details with Positive scenarios";
 		

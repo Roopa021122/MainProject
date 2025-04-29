@@ -13,7 +13,7 @@ public class TC_010_ValidateBooking extends ProjectSpecificationMethods{
 		
 		SheetName="BookHotelInvalidData";
 		testName="BookHotel with invalid data test";
-		testAuthor="Sharmila";
+		testAuthor="Roopa";
 		testCategory="Smoketest";
 		testDescription="Book a Hotel test with negative scenarios";
 		
